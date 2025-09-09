@@ -91,3 +91,6 @@ func stand():
 	cshape.shape = standing_cshape
 	cshape.position.y = -0.5
 	SPEED = 150
+	
+func death():
+	animated_sprite.flip_v = true

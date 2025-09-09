@@ -8,6 +8,8 @@ extends Node2D
 @onready var raycast_up3: RayCast2D = $RayCastUp3
 @onready var audio_stream_player_2d: AudioStreamPlayer2D = $AudioStreamPlayer2D
 @onready var player: CharacterBody2D = $"../Player"
+@onready var game_manager: Node = %GameManager
+@onready var killzone: Area2D = $Killzone
 
 var direction = 1
 var dead = false
@@ -16,8 +18,12 @@ const SPEED = 60
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	if raycast_up.is_colliding() or raycast_up2.is_colliding() or raycast_up3.is_colliding():
-		%Killzone.set_collision_mask_value(2, false)
+		killzone.set_collision_mask_value(2, false)
+		raycast_up.set_collision_mask_value(2, false)
+		raycast_up2.set_collision_mask_value(2, false)
+		raycast_up3.set_collision_mask_value(2, false)
 		dead = true
+		game_manager.add_point()
 		player.velocity.y = -200
 		direction = 0
 		audio_stream_player_2d.play()

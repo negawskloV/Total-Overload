@@ -185,7 +185,6 @@ autoplay = "idle"
 frame_progress = 0.27222
 
 [node name="Killzone" parent="." instance=ExtResource("3_uvcf7")]
-unique_name_in_owner = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
 shape = SubResource("CircleShape2D_ukyjt")
