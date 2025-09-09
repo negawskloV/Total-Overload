@@ -1,10 +1,10 @@
+Label
 CanvasLayer
 MarginContainer
 TextureRect
 VBoxContainer
 HBoxContainer
 Button
-Label
 Node2D
 Node
 Timer
