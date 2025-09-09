@@ -93,4 +93,7 @@ func stand():
 	SPEED = 150
 	
 func death():
-	animated_sprite.flip_v = true
+	animated_sprite.play("death")
+	$".".set_collision_layer_value(2, false)
+	await get_tree().create_timer(0.4).timeout
+	animated_sprite.pause()
