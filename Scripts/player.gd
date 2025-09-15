@@ -9,6 +9,8 @@ const JUMP_VELOCITY = -400
 @onready var crouch_raycast_left = $CRayCastLeft
 @onready var crouch_raycast_right = $CRayCastRight
 
+@export var Projectile : PackedScene
+
 var is_crouching = false
 var stuck_under_object = false
 
@@ -22,6 +24,9 @@ func _physics_process(delta: float) -> void:
 	if not is_on_floor():
 		velocity += get_gravity() * delta
 
+	if Input.is_action_just_pressed("shoot"):
+		shoot()
+	
 	# Handle jump.
 	if Input.is_action_just_pressed("jump") and is_on_floor() and above_head_is_empty():
 		velocity.y = JUMP_VELOCITY
@@ -46,10 +51,10 @@ func _physics_process(delta: float) -> void:
 			stuck_under_object = false
 	
 	if direction > 0:
-		animated_sprite.flip_h = false
+		h_flip(false)
 		
 	elif direction < 0:
-		animated_sprite.flip_h = true
+		h_flip(true)
 		
 	if is_on_floor():
 		if is_crouching == true:
@@ -97,3 +102,19 @@ func death():
 	$".".set_collision_layer_value(2, false)
 	await get_tree().create_timer(0.4).timeout
 	animated_sprite.pause()
+
+
+func shoot():
+	var b = Projectile.instantiate()
+	owner.add_child(b)
+	b.transform = $Marker2D.global_transform
+
+
+func h_flip(flip):
+	animated_sprite.flip_h = flip
+	if flip == true:
+		$Marker2D.set_position(Vector2(-12, -3))
+		$Marker2D.set_rotation(3.14)
+	elif flip == false:
+		$Marker2D.set_position(Vector2(12, 0))
+		$Marker2D.set_rotation(0.0)

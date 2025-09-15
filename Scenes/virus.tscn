@@ -175,7 +175,7 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_ukyjt"]
 radius = 9.05539
 
-[node name="Virus" type="Node2D"]
+[node name="Virus" type="Node2D" groups=["enemies"]]
 script = ExtResource("1_jqikf")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -185,6 +185,7 @@ autoplay = "idle"
 frame_progress = 0.27222
 
 [node name="Killzone" parent="." instance=ExtResource("3_uvcf7")]
+collision_layer = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
 shape = SubResource("CircleShape2D_ukyjt")

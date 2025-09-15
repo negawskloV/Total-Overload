@@ -22,13 +22,7 @@ func _process(delta: float) -> void:
 		raycast_up.set_collision_mask_value(2, false)
 		raycast_up2.set_collision_mask_value(2, false)
 		raycast_up3.set_collision_mask_value(2, false)
-		dead = true
-		game_manager.add_point()
-		player.velocity.y = -200
-		direction = 0
-		audio_stream_player_2d.play()
-		await get_tree().create_timer(1).timeout
-		queue_free()
+		death()
 	
 	if raycast_left.is_colliding():
 		direction = 1
@@ -42,10 +36,28 @@ func _process(delta: float) -> void:
 	elif direction < 0:
 		animated_sprite.flip_h = true
 	
-	if dead:
-		animated_sprite.play("death")	
+	if dead == true:
+		animated_sprite.play("death")
+	
 	else:
 		if direction == 0:
 			animated_sprite.play("idle")
 		else:
 			animated_sprite.play("roll")
+
+func death():
+	dead = true
+	game_manager.add_point()
+	player.velocity.y = -200
+	direction = 0
+	audio_stream_player_2d.play()
+	await get_tree().create_timer(1).timeout
+	queue_free()
+
+func shot():
+	dead = true
+	game_manager.add_point()
+	direction = 0
+	audio_stream_player_2d.play()
+	await get_tree().create_timer(1).timeout
+	queue_free()
