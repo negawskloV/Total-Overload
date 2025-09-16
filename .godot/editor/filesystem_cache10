@@ -1,5 +1,5 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
-::res://::1757923480
+::res://::1758008813
 clandesdyne-pixelated-digital-clock.otf::FontFile/FontFile::4978098815388880911::1757077275::1757077633::1::::<><><>0<>0<>3d6eba576192cb22e7bfd2c682ae736d<>res://.godot/imported/clandesdyne-pixelated-digital-clock.otf-f95f2ee4e2a6f91ed0d776ac42a1927c.fontdata::
 default_bus_layout.tres::AudioBusLayout/AudioBusLayout::3039924781303179873::1756897679::0::1::::<><><>0<>0<><>::
 export_presets.cfg::TextFile/TextFile::-1::1757503831::0::1::::<><><>0<>0<><>::
@@ -35,12 +35,14 @@ sfx_shocked.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::5298852193847477508:
 sfx_switch.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::96890966647911815::1757062103::1757062103::1::::<><><>0<>0<>39d328c7f96149dd951d890a9a2993b7<>res://.godot/imported/sfx_switch.ogg-d0b996f441828b2807b8fb0cb424a9df.oggvorbisstr::
 sfx_toggle.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::777145279147644954::1757062103::1757062103::1::::<><><>0<>0<>e64d2e4532d7f2b7e4e62354c9692a8b<>res://.godot/imported/sfx_toggle.ogg-c05524a47f7fb3c29dea4595462df6eb.oggvorbisstr::
 sfx_waveclear.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::3594686557536739494::1757062103::1757062103::1::::<><><>0<>0<>5a3a4d6b483d7a6cb6aec45d0f2d8d68<>res://.godot/imported/sfx_waveclear.ogg-0ad388a845cf955de5e04d7df4d16b15.oggvorbisstr::
-::res://Assets/Sprites/::1757924184
+::res://Assets/Sprites/::1757935954
 Bonzi idle.png::CompressedTexture2D/CompressedTexture2D::3993454833330067772::1756974732::1756974733::1::::<><><>0<>0<>3d50e4610493434c86c2646dca98572c<>res://.godot/imported/Bonzi idle.png-05dd9bae847e38c95c4352e7dcb5336c.ctex::
 Crouch idle.png::CompressedTexture2D/CompressedTexture2D::1367375111324428437::1756977354::1756977354::1::::<><><>0<>0<>1112eeafa5b0e1e54509115f9c226208<>res://.godot/imported/Crouch idle.png-a866919c746b74d81d5249f0ccc0996a.ctex::
 Crouch walk.png::CompressedTexture2D/CompressedTexture2D::8448997699945733138::1756977354::1756977354::1::::<><><>0<>0<>6168755e3fa2db64ec248e5fc9f877c6<>res://.godot/imported/Crouch walk.png-b6bc3d378241b6aed4c54161e847726a.ctex::
 guy.png::CompressedTexture2D/CompressedTexture2D::7765468911105443412::1756806358::1756974717::1::::<><><>0<>0<>61e8d9ce7c1946f14b472bd691bac083<>res://.godot/imported/guy.png-1cff7d924ae2d58102c4ed2a5ac3add1.ctex::
-Mouse-Object.png::CompressedTexture2D::4670353224193092291::1757924184::1757924185::1::::<><><>0<>0<>ae1d1a82da660a3505d3a6cc2db750b4<>res://.godot/imported/Mouse-Object.png-dbaa8e8fee67a924220b9be17450755b.ctex::
+Keyboard Extras.png::CompressedTexture2D/CompressedTexture2D::7903370245371230551::1757935303::1757935303::1::::<><><>0<>0<>16b9a5f7dae5db971d77248aa01e64ac<>res://.godot/imported/Keyboard Extras.png-c4429f468b712776b27ce5462357cda3.ctex::
+Keyboard Letters and Symbols.png::CompressedTexture2D/CompressedTexture2D::4152796139995814021::1757935303::1757935303::1::::<><><>0<>0<>a9599379478692769cfcee3938aee743<>res://.godot/imported/Keyboard Letters and Symbols.png-73c319b728c37d2e9cd1ecf6b1833938.ctex::
+Mouse-Object.png::CompressedTexture2D/CompressedTexture2D::4670353224193092291::1757924184::1757924185::1::::<><><>0<>0<>ae1d1a82da660a3505d3a6cc2db750b4<>res://.godot/imported/Mouse-Object.png-dbaa8e8fee67a924220b9be17450755b.ctex::
 Piskel death.png::CompressedTexture2D/CompressedTexture2D::4454402934779181202::1757418164::1757418191::1::::<><><>0<>0<>964418591d96fea39f9f3defce9adbe2<>res://.godot/imported/Piskel death.png-d8f6142d58296983b7ff10b2b78b7805.ctex::
 Piskel test jump.png::CompressedTexture2D/CompressedTexture2D::6792925479404298242::1756892339::1756974717::1::::<><><>0<>0<>c783205d4b1b4f7c0c03b25636c453d9<>res://.godot/imported/Piskel test jump.png-e36f3fc98c8890aa081e1cf59f443dc0.ctex::
 Piskel test run.png::CompressedTexture2D/CompressedTexture2D::3396012426234727004::1756891711::1756974717::1::::<><><>0<>0<>0fc4b5635985acfc77d3d56969af0a7a<>res://.godot/imported/Piskel test run.png-d10c3ea197bda307875cae88c34be87e.ctex::
@@ -48,6 +50,21 @@ Piskel test.png::CompressedTexture2D/CompressedTexture2D::4750366552226422662::1
 virus death.png::CompressedTexture2D/CompressedTexture2D::4915205766173974218::1757063331::1757063332::1::::<><><>0<>0<>301293e4178f2eff22bfe2ec1634e754<>res://.godot/imported/virus death.png-5c500c03cbbdd1d4022a1140d65b5085.ctex::
 virus idle.png::CompressedTexture2D/CompressedTexture2D::8416208777298811673::1756987917::1756987917::1::::<><><>0<>0<>c83f742261c0fcbd6140b87a589bf491<>res://.godot/imported/virus idle.png-d7cc675fc6b7dd456b18dc204f5146cb.ctex::
 virus roll.png::CompressedTexture2D/CompressedTexture2D::1824557793369717150::1756987917::1756987917::1::::<><><>0<>0<>ce56e538a4bda6ed2149b6ad8698ff32<>res://.godot/imported/virus roll.png-4c0a89ee31bb9eaaead321bb506be777.ctex::
+::res://Assets/Sprites/Keys/::1757936336
+A-Key-Pressed.png::CompressedTexture2D/CompressedTexture2D::1082329931521153227::1757935954::1757935954::1::::<><><>0<>0<>47fca3909a9c60d69ba425efc77989a4<>res://.godot/imported/A-Key-Pressed.png-8c3dda24c1f391b04855643f1d834e13.ctex::
+A-Key.png::CompressedTexture2D/CompressedTexture2D::5861157483326142035::1757935954::1757935954::1::::<><><>0<>0<>486ac2f030e20efaa654a785a86ff924<>res://.godot/imported/A-Key.png-a563ddb5e52fac3f948ee517c0e17485.ctex::
+Control-Key-Pressed.png::CompressedTexture2D/CompressedTexture2D::319515993849117408::1757935954::1757935954::1::::<><><>0<>0<>e80d0ffb4ad9651def57d3b963467e59<>res://.godot/imported/Control-Key-Pressed.png-8af3d0cf1e5f0d5088034f3df37c63a4.ctex::
+Control-Key.png::CompressedTexture2D/CompressedTexture2D::1455441844220729376::1757935954::1757935954::1::::<><><>0<>0<>a6eaa65ce7fa4312b5d45deb91db2e8e<>res://.godot/imported/Control-Key.png-d00a0c20c63bd35ddb11a5660f460bdc.ctex::
+D-Key-Pressed.png::CompressedTexture2D/CompressedTexture2D::8043440493019101535::1757935954::1757935954::1::::<><><>0<>0<>0527136b92401137cdd750b4b71ccb34<>res://.godot/imported/D-Key-Pressed.png-c7ca802c340f36cd3bf2002a6ac59719.ctex::
+D-Key.png::CompressedTexture2D/CompressedTexture2D::9150072472043678063::1757935954::1757935954::1::::<><><>0<>0<>ccd2bb7d4f9702a2764df9ac51e98c42<>res://.godot/imported/D-Key.png-2fe8989fe95c993e9c80af823114b520.ctex::
+E-Key-Pressed.png::CompressedTexture2D/CompressedTexture2D::2489262406942246100::1757935954::1757935954::1::::<><><>0<>0<>4f507f401671a3f85e0b3378513c97be<>res://.godot/imported/E-Key-Pressed.png-c51c534df67691649704404ed6354ac4.ctex::
+E-Key.png::CompressedTexture2D/CompressedTexture2D::6434314208877811609::1757935954::1757935954::1::::<><><>0<>0<>d9b00125a557bc96f3e7788d38e41222<>res://.godot/imported/E-Key.png-89aa5c051903bf3dc0bb07e796277037.ctex::
+Left-Key-Pressed.png::CompressedTexture2D/CompressedTexture2D::4638014067667949693::1757936335::1757936336::1::::<><><>0<>0<>5887f61956f4449bc43a6c65e105b9c2<>res://.godot/imported/Left-Key-Pressed.png-52a33f00a8aae9f3ab5ff101cdcec338.ctex::
+Left-Key.png::CompressedTexture2D/CompressedTexture2D::3394062555151124672::1757936335::1757936336::1::::<><><>0<>0<>87c25ac8fbca1c426c7dbcf322ddfffd<>res://.godot/imported/Left-Key.png-5a11b237a088802a320dc85ad19c1290.ctex::
+Right-Key-Pressed.png::CompressedTexture2D/CompressedTexture2D::1370433284647640263::1757936335::1757936336::1::::<><><>0<>0<>8000954969e6fe0cc1d631beb942a576<>res://.godot/imported/Right-Key-Pressed.png-787b5b107c0aa714433aa8137bb43215.ctex::
+Right-Key.png::CompressedTexture2D/CompressedTexture2D::5583620606336371026::1757936335::1757936336::1::::<><><>0<>0<>05ea011efbe01967459685af4367e3e1<>res://.godot/imported/Right-Key.png-77327ca43f5f2d7e0444c8e2019e43b0.ctex::
+Space-Key-Pressed.png::CompressedTexture2D/CompressedTexture2D::8019053164733626014::1757935954::1757935954::1::::<><><>0<>0<>49352612297b6ca4418aaca2c7df9783<>res://.godot/imported/Space-Key-Pressed.png-2e72fa9218065e344700f2cd4894fa4c.ctex::
+Space-Key.png::CompressedTexture2D/CompressedTexture2D::3330766307978663286::1757935954::1757935954::1::::<><><>0<>0<>334e5ebbb45899650a92475a5c39da82<>res://.godot/imported/Space-Key.png-654fc10e626fdeaf9aedeaa526d1ca62.ctex::
 ::res://Assets/Textures/::1757057408
 readme.txt::TextFile/TextFile::-1::1757057408::0::1::::<><><>0<>0<><>::
 ::res://Assets/Textures/Bricks/::1757057408
@@ -472,27 +489,32 @@ tile_0080.png::CompressedTexture2D/CompressedTexture2D::4753589862783591663::175
 ::res://Resources/::1756978961
 player_crouching_cshape.tres::RectangleShape2D/RectangleShape2D::3434589821504721211::1756978142::0::1::::<><><>0<>0<><>::
 player_standing_cshape.tres::RectangleShape2D/RectangleShape2D::8544730078494067027::1756978961::0::1::::<><><>0<>0<><>::
-::res://Scenes/::1757923483
-bonzi.tscn::PackedScene/PackedScene::264663461501263178::1757335788::0::1::::<><><>0<>0<><>::uid://bw5pvaajery8s::::res://Assets/Sprites/Bonzi idle.png
-game.tres::TileSet::8169635228346209274::1757923483::0::1::::<><><>0<>0<><>::uid://lb6rn1eymlab::::res://Assets/Tilemap/rock.png<>uid://nq3bpukyb4ks::::res://Assets/Tilemap/sand.png<>uid://bdgxsepyxuxuj::::res://Assets/Tilemap/stone.png<>uid://dsff8y8tyqtst::::res://Assets/Tilemap/marble_packed.png
-game.tscn::PackedScene::6394926951810131237::1757923483::0::1::::<><><>0<>0<><>::uid://dpdpm6m20axni::::res://Assets/Textures/Tech/TECHALL.png<>uid://b2ubq86npykp7::::res://Scripts/game_manager.gd<>uid://donox0uiwkm2e::::res://Scenes/game.tres<>uid://dbdbr0j3v7avx::::res://Scenes/player.tscn<>uid://dm6cpte2bytsj::::res://Scenes/killzone.tscn<>uid://cqup5k2qmp3dx::::res://Scenes/hud.tscn<>uid://dmq7v2hepybxl::::res://Scenes/virus.tscn<>uid://cbnvagcvpb0je::::res://Scenes/music.tscn<>uid://ck3f7n25hsn6k::::res://Scenes/game_menu.tscn
-game_menu.tscn::PackedScene::5532893837135400412::1757923483::0::1::::<><><>0<>0<><>::uid://brvgx5668a8dv::::res://Scripts/game_menu.gd<>uid://d3hteqji5blp1::::res://Scripts/game_menu.gdshader<>uid://bsbls7mfde18g::::res://Assets/Fonts/PixelOperator8.ttf
-hud.tscn::PackedScene::5938115317071405157::1757923483::0::1::::<><><>0<>0<><>::uid://c5x771e41t1g5::::res://Scripts/hud.gd<>uid://d3hteqji5blp1::::res://Scripts/game_menu.gdshader<>uid://c16e7b64t1f22::::res://Assets/Fonts/PixelOperator8-Bold.ttf
+::res://Scenes/::1757939364
+bonzi.tscn::PackedScene::264663461501263178::1757939364::0::1::::<><><>0<>0<><>::uid://b6me176xhu22f::::res://Scripts/bonzi.gd<>uid://bw5pvaajery8s::::res://Assets/Sprites/Bonzi idle.png<>uid://dm6cpte2bytsj::::res://Scenes/killzone.tscn<>uid://cgbwdoryriuu0::::res://Assets/SFX/sfx_explosionGoo.ogg
+game.tres::TileSet::8169635228346209274::1757937720::0::1::::<><><>0<>0<><>::uid://lb6rn1eymlab::::res://Assets/Tilemap/rock.png<>uid://nq3bpukyb4ks::::res://Assets/Tilemap/sand.png<>uid://bdgxsepyxuxuj::::res://Assets/Tilemap/stone.png<>uid://dsff8y8tyqtst::::res://Assets/Tilemap/marble_packed.png
+game.tscn::PackedScene::6394926951810131237::1757939364::0::1::::<><><>0<>0<><>::uid://dpdpm6m20axni::::res://Assets/Textures/Tech/TECHALL.png<>uid://b2ubq86npykp7::::res://Scripts/game_manager.gd<>uid://donox0uiwkm2e::::res://Scenes/game.tres<>uid://dbdbr0j3v7avx::::res://Scenes/player.tscn<>uid://dm6cpte2bytsj::::res://Scenes/killzone.tscn<>uid://cqup5k2qmp3dx::::res://Scenes/hud.tscn<>uid://dmq7v2hepybxl::::res://Scenes/virus.tscn<>uid://cbnvagcvpb0je::::res://Scenes/music.tscn<>uid://bsbls7mfde18g::::res://Assets/Fonts/PixelOperator8.ttf<>uid://ck3f7n25hsn6k::::res://Scenes/game_menu.tscn<>uid://cprgn38odp2b4::::res://Assets/Sprites/Keys/A-Key.png<>uid://d3mmmeotua28b::::res://Assets/Sprites/Keys/D-Key.png<>uid://cxw3hkqukh5rh::::res://Assets/Sprites/Keys/E-Key.png<>uid://bomdyj37tvkfw::::res://Assets/Sprites/Keys/Left-Key.png<>uid://cls0oepdrktw1::::res://Assets/Sprites/Keys/Right-Key.png<>uid://bnpph8bjflsqg::::res://Assets/Sprites/Keys/Space-Key.png<>uid://u0a6dg0rbn25::::res://Assets/Sprites/Keys/Control-Key.png<>uid://d1g76vva4wbi::::res://Scenes/bonzi.tscn
+game_menu.tscn::PackedScene::5532893837135400412::1757939364::0::1::::<><><>0<>0<><>::uid://brvgx5668a8dv::::res://Scripts/game_menu.gd<>uid://d3hteqji5blp1::::res://Scripts/game_menu.gdshader<>uid://bsbls7mfde18g::::res://Assets/Fonts/PixelOperator8.ttf
+hud.tscn::PackedScene::5938115317071405157::1757939364::0::1::::<><><>0<>0<><>::uid://c5x771e41t1g5::::res://Scripts/hud.gd<>uid://d3hteqji5blp1::::res://Scripts/game_menu.gdshader<>uid://c16e7b64t1f22::::res://Assets/Fonts/PixelOperator8-Bold.ttf<>uid://1b0rltixusy7::::res://Assets/Fonts/clandesdyne-pixelated-digital-clock.otf
 killzone.tscn::PackedScene/PackedScene::8065673111357580265::1757335788::0::1::::<><><>0<>0<><>::uid://bmed88ibfwqoh::::res://Scripts/killzone.gd
-main.tscn::PackedScene::3463359959090792632::1757923483::0::1::::<><><>0<>0<><>::uid://5nonkx64bsgj::::res://Scripts/main.gd<>uid://cbnvagcvpb0je::::res://Scenes/music.tscn<>uid://cp57wlj6xqxj7::::res://Scenes/mainmenu.tscn<>uid://mg8cvdvk1wyu::::res://Assets/Music/Main-Menu.wav
-mainmenu.tscn::PackedScene::5889588178912896702::1757923483::0::1::::<><><>0<>0<><>::uid://bm7kw51a7e53w::::res://Scripts/menu.gd<>uid://1b0rltixusy7::::res://Assets/Fonts/clandesdyne-pixelated-digital-clock.otf<>uid://c18gf3n1tkajv::::res://Assets/Total-Overload-Logo1.png<>uid://bsbls7mfde18g::::res://Assets/Fonts/PixelOperator8.ttf
+main.tscn::PackedScene::3463359959090792632::1757939364::0::1::::<><><>0<>0<><>::uid://5nonkx64bsgj::::res://Scripts/main.gd<>uid://cbnvagcvpb0je::::res://Scenes/music.tscn<>uid://cp57wlj6xqxj7::::res://Scenes/mainmenu.tscn<>uid://mg8cvdvk1wyu::::res://Assets/Music/Main-Menu.wav
+mainmenu.tscn::PackedScene::5889588178912896702::1757939364::0::1::::<><><>0<>0<><>::uid://bm7kw51a7e53w::::res://Scripts/menu.gd<>uid://1b0rltixusy7::::res://Assets/Fonts/clandesdyne-pixelated-digital-clock.otf<>uid://c18gf3n1tkajv::::res://Assets/Total-Overload-Logo1.png<>uid://bsbls7mfde18g::::res://Assets/Fonts/PixelOperator8.ttf
 menu.tscn::PackedScene/PackedScene::3050707264033649928::1757336756::0::1::::<><><>0<>0<><>::uid://bm7kw51a7e53w::::res://Scripts/menu.gd<>uid://1b0rltixusy7::::res://Assets/Fonts/clandesdyne-pixelated-digital-clock.otf
 music.tscn::PackedScene/PackedScene::4871142497879074482::1757335788::0::1::::<><><>0<>0<><>::uid://csnk6k74p4wlv::::res://Assets/Music/temp song.wav
-player.tscn::PackedScene::7235736431757171313::1757923483::0::1::::<><><>0<>0<><>::uid://d3u1m50ewyb5b::::res://Scripts/player.gd<>uid://b8xd3wulnhlhe::::res://Assets/Sprites/Piskel test.png<>uid://tqmp6mmgir6t::::res://Assets/Sprites/Crouch idle.png<>uid://dsm00052i005k::::res://Assets/Sprites/Crouch walk.png<>uid://bonb3f0hv8txk::::res://Assets/Sprites/Piskel test run.png<>uid://c31sqwwkqfyji::::res://Assets/Sprites/Piskel test jump.png<>uid://b4p0motfpu03g::::res://Assets/Sprites/Piskel death.png<>uid://dt0eprekw2044::::res://Resources/player_standing_cshape.tres
-virus.tscn::PackedScene/PackedScene::8036540093387994637::1757335788::0::1::::<><><>0<>0<><>::uid://dr54y1wg6jwu8::::res://Assets/Sprites/virus idle.png<>uid://bws22q5kgph8y::::res://Scripts/virus.gd<>uid://083g2sa21hd3::::res://Assets/Sprites/virus roll.png<>uid://cca7yrkht1fkc::::res://Assets/Sprites/virus death.png<>uid://dm6cpte2bytsj::::res://Scenes/killzone.tscn<>uid://cgbwdoryriuu0::::res://Assets/SFX/sfx_explosionGoo.ogg
-::res://Scripts/::1757923483
+player.tscn::PackedScene::7235736431757171313::1757939364::0::1::::<><><>0<>0<><>::uid://d3u1m50ewyb5b::::res://Scripts/player.gd<>uid://b8xd3wulnhlhe::::res://Assets/Sprites/Piskel test.png<>uid://cuboposhd2i3j::::res://Scenes/projectile.tscn<>uid://tqmp6mmgir6t::::res://Assets/Sprites/Crouch idle.png<>uid://dsm00052i005k::::res://Assets/Sprites/Crouch walk.png<>uid://bonb3f0hv8txk::::res://Assets/Sprites/Piskel test run.png<>uid://c31sqwwkqfyji::::res://Assets/Sprites/Piskel test jump.png<>uid://b4p0motfpu03g::::res://Assets/Sprites/Piskel death.png<>uid://dt0eprekw2044::::res://Resources/player_standing_cshape.tres
+projectile-evil.tscn::PackedScene::7121046853711192663::1757939364::0::1::::<><><>0<>0<><>::uid://d0rbe310rv2d7::::res://Scripts/projectile_evil.gd<>uid://b7smbg0w7fxb4::::res://Assets/Sprites/Mouse-Object.png
+projectile.tscn::PackedScene::6179560206164723401::1757939364::0::1::::<><><>0<>0<><>::uid://b7smbg0w7fxb4::::res://Assets/Sprites/Mouse-Object.png<>uid://bf68tjpkaq7dh::::res://Scripts/projectile.gd
+virus.tscn::PackedScene::8036540093387994637::1757939364::0::1::::<><><>0<>0<><>::uid://dr54y1wg6jwu8::::res://Assets/Sprites/virus idle.png<>uid://bws22q5kgph8y::::res://Scripts/virus.gd<>uid://083g2sa21hd3::::res://Assets/Sprites/virus roll.png<>uid://cca7yrkht1fkc::::res://Assets/Sprites/virus death.png<>uid://dm6cpte2bytsj::::res://Scenes/killzone.tscn<>uid://cgbwdoryriuu0::::res://Assets/SFX/sfx_explosionGoo.ogg
+::res://Scripts/::1757939364
+bonzi.gd::GDScript::4587338397824744247::1757939364::0::1::::<>Node2D<><>0<>0<><>::
 game.gd::GDScript/GDScript::3239477808456889204::1757324208::0::1::::<>Node2D<><>0<>0<><>::
-game_manager.gd::GDScript::4322898088467568342::1757923164::0::1::::<>Node<><>0<>0<><>::
-game_menu.gd::GDScript::3623389958633394991::1757923164::0::1::::<>CanvasLayer<><>0<>0<><>::
-game_menu.gdshader::Shader::9140161937941278828::1757923483::0::1::::<><><>0<>0<><>::
-hud.gd::GDScript/GDScript::6927988827183502506::1757670449::0::1::::<>CanvasLayer<><>0<>0<><>::
-killzone.gd::GDScript::3237187146224880579::1757923164::0::1::::<>Area2D<><>0<>0<><>::
+game_manager.gd::GDScript/GDScript::4322898088467568342::1757923164::0::1::::<>Node<><>0<>0<><>::
+game_menu.gd::GDScript/GDScript::3623389958633394991::1757923164::0::1::::<>CanvasLayer<><>0<>0<><>::
+game_menu.gdshader::Shader::9140161937941278828::1757939364::0::1::::<><><>0<>0<><>::
+hud.gd::GDScript::6927988827183502506::1757938158::0::1::::<>CanvasLayer<><>0<>0<><>::
+killzone.gd::GDScript/GDScript::3237187146224880579::1757929498::0::1::::<>Area2D<><>0<>0<><>::
 main.gd::GDScript/GDScript::2133376035374557973::1757334222::0::1::::<>Node<><>0<>0<><>::
 menu.gd::GDScript/GDScript::3295394968781349606::1757495909::0::1::::<>CanvasLayer<><>0<>0<><>::
-player.gd::GDScript/GDScript::9167438913896893537::1757418617::0::1::::<>CharacterBody2D<><>0<>0<><>::
-virus.gd::GDScript/GDScript::3969422505723722030::1757324135::0::1::::<>Node2D<><>0<>0<><>::
+player.gd::GDScript/GDScript::9167438913896893537::1757936616::0::1::::<>CharacterBody2D<><>0<>0<><>::
+projectile.gd::GDScript::2803398699441840109::1757939130::0::1::::<>Area2D<><>0<>0<><>::
+projectile_evil.gd::GDScript::8949146935995693898::1757939229::0::1::::<>Area2D<><>0<>0<><>::
+virus.gd::GDScript/GDScript::3969422505723722030::1757929492::0::1::::<>Node2D<><>0<>0<><>::

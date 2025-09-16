@@ -1,6 +1,9 @@
-[gd_scene load_steps=32 format=3 uid="uid://d1g76vva4wbi"]
+[gd_scene load_steps=36 format=3 uid="uid://d1g76vva4wbi"]
 
+[ext_resource type="Script" uid="uid://b6me176xhu22f" path="res://Scripts/bonzi.gd" id="1_jo5ip"]
 [ext_resource type="Texture2D" uid="uid://bw5pvaajery8s" path="res://Assets/Sprites/Bonzi idle.png" id="1_raili"]
+[ext_resource type="PackedScene" uid="uid://dm6cpte2bytsj" path="res://Scenes/killzone.tscn" id="3_dldxi"]
+[ext_resource type="AudioStream" uid="uid://cgbwdoryriuu0" path="res://Assets/SFX/sfx_explosionGoo.ogg" id="4_q4tsg"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vyfdm"]
 atlas = ExtResource("1_raili")
@@ -267,10 +270,23 @@ animations = [{
 "speed": 10.0
 }]
 
-[node name="Bonzi" type="Node2D"]
+[sub_resource type="CircleShape2D" id="CircleShape2D_u1150"]
+radius = 15.0
+
+[node name="Bonzi" type="Node2D" groups=["enemies"]]
+script = ExtResource("1_jo5ip")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_7ibpd")
 animation = &"idle"
 autoplay = "idle"
 frame_progress = 0.527636
+
+[node name="Killzone" parent="." instance=ExtResource("3_dldxi")]
+collision_layer = 5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
+shape = SubResource("CircleShape2D_u1150")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_q4tsg")
